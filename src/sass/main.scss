@@ -3,3 +3,10 @@
 @import 'header';
 @import 'carousel';
 @import 'full-banner';
+@import 'footer';
+
+body{
+    margin: 0;
+    font-family: Raleway;
+    overflow-x: hidden;
+}

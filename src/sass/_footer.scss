@@ -1,0 +1,15 @@
+.footer{
+    min-height: 200px;
+    background-color: $blue-footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .logo{
+        width: 300px;
+
+        img{
+            width: 100%;
+        }
+    }
+}
