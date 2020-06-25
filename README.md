@@ -1,11 +1,20 @@
-# Bruno Silva - Coding Testimonials Slider
+# Gama XP 34P
 
-Projeto de inspiração é do [https://www.frontendmentor.io/](https://www.frontendmentor.io/)
+Dossie Grupo Avengers
 
-**FOCO/OBJETIVO:** Estudo de como montar um carousel utilizando um puglin e principalmente o Gulp (em uma estrutura desenvolvida por colega de trabalho)
+**FOCO/OBJETIVO:** Desenvolver um Dossie sobre cada integrante do grupo
 
 ## Bem vindo! 👋
 
+1. Header
+2. Full-Banner
+3. Quem Somos
+4. O que podemos oferecer...
+5. Carousel
+6. Footer
+
+
+# Item 5
 Slider/Carousel, utilizando Bootstrap somente para controlar o "container".
 
 Plugin **[slick-slider](https://kenwheeler.github.io/slick/)** para dar vida ao carousel, e criado classes especificas para desenhar o formato desejado.
@@ -105,6 +114,3 @@ Para manter o sourcemap e conseguir inspecionar elemento normalmente executo **n
 
 ---------------------------------------------------------------------------------------------------------------------
 
-
-
-[Bruno Silva](https://www.linkedin.com/in/bruno-silva0109/)
