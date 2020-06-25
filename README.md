@@ -13,8 +13,18 @@ Dossie Grupo Avengers
 5. Carousel
 6. Footer
 
+## Item 1
+Header com 100px de altura, com **container** dentro alinhado com display:flex e align-items:center.
 
-# Item 5
+Também aplicado position:absolut e z-index:1 para ficar no mesmo espaço que o full-banner e sobreposto!
+
+## Item 2
+Banner incluso via background(css).
+
+Definido height fixo e width: 100%.
+
+
+## Item 5
 Slider/Carousel, utilizando Bootstrap somente para controlar o "container".
 
 Plugin **[slick-slider](https://kenwheeler.github.io/slick/)** para dar vida ao carousel, e criado classes especificas para desenhar o formato desejado.
