@@ -1,0 +1,152 @@
+.container {
+    .slick-slide.slick-current.slick-active, .slick-slide {
+        outline: none;
+    }
+
+    .slick-slider {
+        width: 100%; 
+        @extend .middle-height;
+
+        .slick-prev::before, .slick-next::before{
+            color: $blue-arrow-slick;
+        }
+    }
+
+    .carousel{
+        .slick-list{
+            position: relative;
+        }
+
+        .user {
+            @extend .middle-height;
+            justify-content: center;
+            position: relative;
+            left: 280px;
+
+            @media screen and (max-width: 1024px){
+                left: 190px; 
+            }
+
+            .photograph{    
+                position: absolute;
+                z-index: 1;
+                max-width: 418px;
+                margin: 0 auto;
+                border-radius: 5px;
+            }
+
+            .background{
+                position: relative;    
+                max-width: 550px;
+            }
+        }
+
+        .message{
+            @extend .middle-height;
+            width: 650px; 
+            z-index: 1001;
+            position: absolute; 
+            font-size: 32px; 
+            font-family: 'Inter', sans-serif; 
+            font-weight: 300; 
+            color: $blue-arrow-slick; 
+            margin-left: 20px;
+            height: 100%;
+
+            .quotes{
+                position: absolute; 
+                z-index: -1;
+                margin-left: 100px; 
+                top: 50px;
+            }
+
+            .dev {
+                font-size: 25px; 
+                color: hsl(240, 18%, 77%); 
+                margin-top: 35px;
+
+                strong{
+                    color: $blue-arrow-slick;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        .carousel{
+            .slick-prev {
+                left: -17px;
+            }
+            
+            .slick-next {
+                right: -17px;
+            }
+
+            .slick-list{
+                .slick-slide{
+                    display: flex;
+                    flex-direction: column-reverse;
+                    justify-content: center;
+                }
+            }
+
+            .message{
+                width: 100%;
+                position: initial;
+                margin: 0;
+                text-align: center;
+                margin-top: 80px;
+
+                .quotes{
+                    position: absolute; 
+                    z-index: -1;
+                    margin-left: 100px; 
+                    top: 360px;
+                }
+            }
+
+            .user{
+                width: 100%;
+                position: sticky;
+
+                .photograph{    
+                    position: absolute;
+                    z-index: 1;
+                    max-width: 80%;
+                    margin: 0 auto;
+                    border-radius: 5px;
+                }
+    
+                .background{
+                    position: relative;    
+                    max-width: 100%;
+                }
+            }
+        }
+
+        .curve{
+            max-width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width:769px) and (max-width: 1024px){
+    .container{
+        .carousel{
+            .message{
+                .quotes{
+                    position: absolute; 
+                    z-index: -1;
+                    margin-left: 100px; 
+                    top: 680px;
+                }
+            }
+        }
+
+        .curve{
+            max-width: 100%;
+        }
+    }
+}
