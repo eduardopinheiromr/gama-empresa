@@ -1,5 +1,5 @@
 .who-are{
-  height: 730px;
+  height: 780px;
   display: flex;
   background: $light-beige;
   box-sizing: border-box;
@@ -47,6 +47,7 @@
     padding-bottom: 127px;
     display: flex;
     align-items: center;
+    flex-flow: row wrap;
     .folder{
       display: flex;
       position: relative;
