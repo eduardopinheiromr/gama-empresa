@@ -53,21 +53,63 @@
       margin-bottom: 30px;
     }
     .hustler-team{
-      display: none;
+      opacity: 0.0;
       position: absolute;
+      transition: 1s;
     }
     .hyper-team{
-      display: none;
+      opacity: 0;
       position: absolute;
     }
     .hacker-team{
-      display: none;
+      opacity: 0;
       position: absolute;
     }
     .hipster-team{
-      display: none;
+      opacity: 0;
       position: absolute;
     }
   }
 }
 
+.hustler-team:hover{
+  animation-name: fadeOnHover;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.hyper-team:hover{
+  animation-name: fadeOnHover;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.hacker-team:hover{
+  animation-name: fadeOnHover;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.hipster-team:hover{
+  animation-name: fadeOnHover;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeOnHover{
+  0%{
+    opacity: 0;
+    margin-left: -10px;
+    margin-top: -10px;
+  }
+
+  100%{
+    opacity: 1;
+    margin-left: -30px;
+    margin-top: -40px;
+  }
+}
