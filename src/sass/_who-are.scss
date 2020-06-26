@@ -1,75 +1,81 @@
 .who-are{
-  height: 780px;
-  display: flex;
-  background: $light-beige;
-  box-sizing: border-box;
+  // height: 780px;
+  // display: flex;
+  // background: $light-beige;
+  // box-sizing: border-box;
+  background-color: $gray;
   
-  .content{
-    height: 100%;
-    width: 40%;
+  .container{
+    padding: 120px 0;
     display: flex;
-    font-size: 12pt;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding-left: 160px;
-  }
-  .who-are-title{
-    align-self: flex-start;
-    font-size: 25pt;
-    font-weight: bolder;
-    color: $blue-company;
-    margin-bottom: 25px;
-  }
-  .who-are-text{
-    color: $black;
-  }
-  .who-are-subtitle{
-    font-size: 18pt;
-    font-weight: bold;
-    color: $blue-company;
-    margin-bottom: 75px;
-  }
-  .who-are-btn{
-    height: 44px;
-    width: 280px;
-    padding: 5px;
-    color: $white;
-    border: none;
-    background: $blue-company;
+    justify-content: space-between;
+    .content{
+      width: calc(100vw - 50%);
+      // height: 100%;
+      // width: 40%;
+      // display: flex;
+      // font-size: 12pt;
+      // flex-direction: column;
+      // justify-content: center;
+      // align-items: flex-start;
+    .who-are-title{
+      align-self: flex-start;
+      font-size: 25pt;
+      font-weight: bolder;
+      color: $blue-company;
+      margin-bottom: 25px;
+    }
+    .who-are-text{
+      color: $black;
+    }
+    .who-are-subtitle{
+      font-size: 18pt;
+      font-weight: bold;
+      color: $blue-company;
+      margin-bottom: 75px;
+    }
+    .who-are-btn{
+      height: 44px;
+      width: 280px;
+      padding: 5px;
+      color: $white;
+      border: none;
+      background: $blue-company;
+    }
   }
 
-  .stack-folders{
-    max-height: 100%;
-    width: 50%;
-    padding-right: 100px;
-    padding-top: 142px;
-    padding-bottom: 127px;
-    display: flex;
-    align-items: center;
-    flex-flow: row wrap;
-    .folder{
+    .stack-folders{
+      width: calc(100vw - 50%);
       display: flex;
-      position: relative;
-      margin-left: 30px;
-      margin-bottom: 30px;
-    }
-    .hustler-team{
-      opacity: 0.0;
-      position: absolute;
-      transition: 1s;
-    }
-    .hyper-team{
-      opacity: 0;
-      position: absolute;
-    }
-    .hacker-team{
-      opacity: 0;
-      position: absolute;
-    }
-    .hipster-team{
-      opacity: 0;
-      position: absolute;
+      flex-wrap: wrap;
+      // max-height: 100%;
+      // width: 50%;
+      // display: flex;
+      // align-items: center;
+      // flex-flow: row wrap;
+      .folder{
+        display: flex;
+        position: relative;
+        margin-left: 30px;
+        margin-bottom: 30px;
+      }
+      .hustler-team{
+        opacity: 0.0;
+        position: absolute;
+        transition: 1s;
+      }
+      .hyper-team{
+        opacity: 0;
+        position: absolute;
+      }
+      .hacker-team{
+        opacity: 0;
+        position: absolute;
+      }
+      .hipster-team{
+        opacity: 0;
+        position: absolute;
+      }
     }
   }
 }
