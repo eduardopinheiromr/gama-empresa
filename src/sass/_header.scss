@@ -1,5 +1,5 @@
 .header{
-    display: none;
+    display: flex;
     justify-content: center;
     .container{
         position: absolute;
@@ -11,6 +11,7 @@
 
         .logo{
             width: 200px;
+            opacity: 1;
 
             img{
                 width: 100%;
