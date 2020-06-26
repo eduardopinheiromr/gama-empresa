@@ -1,6 +1,10 @@
 .mission{
   background-color: $blue-company;
-
+  position: absolute;
+  width: 100%;
+  height: 594px;
+  top: 1223px;
+  
   .container{
       padding: 120px 0;
       display: flex;

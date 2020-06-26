@@ -1,6 +1,5 @@
 .who-are{
-  height: 700px;
-  // margin-top: -150px;
+  height: 730px;
   display: flex;
   background: $light-beige;
   box-sizing: border-box;
@@ -8,12 +7,12 @@
   .content{
     height: 100%;
     width: 40%;
-    padding: 0 20px 0 120px;
     display: flex;
     font-size: 12pt;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    padding-left: 220px;
   }
   .who-are-title{
     align-self: flex-start;
@@ -32,8 +31,9 @@
     margin-bottom: 75px;
   }
   .who-are-btn{
-    height: 40px;
-    padding: 5px 95px 5px 95px;
+    height: 44px;
+    width: 280px;
+    padding: 5px;
     color: $white;
     border: none;
     background: $blue-company;
@@ -42,7 +42,9 @@
   .stack-folders{
     max-height: 100%;
     width: 50%;
-    padding: 175px 0 175px 0;
+    padding-left: 120px;
+    padding-top: 142px;
+    padding-bottom: 127px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
