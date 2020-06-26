@@ -1,0 +1,32 @@
+.mission{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background: $blue-company;
+  color: $white;
+  align-items: center;
+
+  .mission-call{
+    font-size: 25pt;
+    font-weight: bold;
+    line-height: initial;
+    margin-top: 100px;
+    margin-bottom: 25px;
+  }
+  .mission-columns{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+    .mission-column{
+      text-align: center;
+      font-weight: 200;
+      width: 25%;
+      
+      h3{
+        font-weight: bold;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+.who-are{
+  height: 700px;
+  // margin-top: -150px;
+  display: flex;
+  background: $light-beige;
+  
+  .content{
+    height: 100%;
+    width: 50%;
+    padding: 0 125px 0 125px;
+    display: flex;
+    font-size: 12pt;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .who-are-title{
+    align-self: flex-start;
+    font-size: 25pt;
+    font-weight: bolder;
+    color: $blue-company;
+    margin-bottom: 25px;
+  }
+  .who-are-text{
+    color: $black;
+  }
+  .who-are-subtitle{
+    font-size: 18pt;
+    font-weight: bold;
+    color: $blue-company;
+    margin-bottom: 75px;
+  }
+  .who-are-btn{
+    height: 40px;
+    padding: 5px 95px 5px 95px;
+    color: $white;
+    border: none;
+    background: $blue-company;
+  }
+
+  .stack-folders{
+    height: 100%;
+    width: 50%;
+    padding: 175px 0 175px 0;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    .folder{
+      display: flex;
+      position: relative;
+      margin-left: 30px;
+      margin-bottom: 30px;
+    }
+    .hustler-team{
+      display: none;
+      position: absolute;
+    }
+    .hyper-team{
+      display: none;
+      position: absolute;
+    }
+    .hacker-team{
+      display: none;
+      position: absolute;
+    }
+    .hipster-team{
+      display: none;
+      position: absolute;
+    }
+  }
+}
+
