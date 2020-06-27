@@ -1,38 +1,35 @@
 .who-are{
-  // height: 780px;
-  // display: flex;
-  // background: $light-beige;
-  // box-sizing: border-box;
   background-color: $gray;
   
   .container{
     padding: 120px 0;
     display: flex;
     justify-content: space-between;
+
     .content{
       width: calc(100vw - 50%);
-      // height: 100%;
-      // width: 40%;
-      // display: flex;
-      // font-size: 12pt;
-      // flex-direction: column;
-      // justify-content: center;
-      // align-items: flex-start;
+
     .who-are-title{
+      font-family: 'Inter', sans-serif !important;
       align-self: flex-start;
       font-size: 25pt;
       font-weight: bolder;
       color: $blue-company;
-      margin-bottom: 25px;
+      margin-bottom: 40px;
     }
     .who-are-text{
       color: $black;
+      font-family: 'Raleway', sans-serif !important;
+      margin-bottom: 19px;
     }
+
     .who-are-subtitle{
       font-size: 18pt;
       font-weight: bold;
       color: $blue-company;
       margin-bottom: 75px;
+      font-family: 'Raleway', sans-serif !important;
+      margin-bottom: 97px;
     }
     .who-are-btn{
       height: 44px;
@@ -41,6 +38,7 @@
       color: $white;
       border: none;
       background: $blue-company;
+      font-family: 'Raleway', sans-serif !important;
     }
   }
 
@@ -48,25 +46,30 @@
       width: calc(100vw - 50%);
       display: flex;
       flex-wrap: wrap;
+
       .folder{
         display: flex;
         position: relative;
         margin-left: 30px;
         margin-bottom: 30px;
       }
+
       .hustler-team{
         opacity: 0.0;
         position: absolute;
         transition: 1s;
       }
+
       .hyper-team{
         opacity: 0;
         position: absolute;
       }
+
       .hacker-team{
         opacity: 0;
         position: absolute;
       }
+
       .hipster-team{
         opacity: 0;
         position: absolute;
