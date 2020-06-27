@@ -1,6 +1,7 @@
 .mission{
   background-color: $blue-company;
   width: 100%;
+  font-family: 'Raleway', sans-serif !important;
   
   .container{
       padding: 120px 0;
@@ -27,13 +28,13 @@
       }
 
       .title{
-          font-family: Raleway;
-          font-style: normal;
-          font-weight: 800;
-          font-size: 32px;
-          line-height: 38px;
-          flex-wrap: wrap;
-          color: $white;
+        font-family: 'Raleway', sans-serif !important;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 38px;
+        flex-wrap: wrap;
+        color: $white;
       }
 
       .Comprometimento, .Clareza, .Força{
